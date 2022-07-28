@@ -24,6 +24,17 @@
 
 }
 
+.subtitulos-seccion02{
+    margin: 6px;
+    color: white;
+    font-size: 20px;
+    text-align: center
+}
+
+
+.header_01{
+    margin: 1px color black;
+}
 
 
 #menu li {
@@ -38,6 +49,7 @@ h1 {
 }
 
 .card_subtitulo {
+    margin: 6px;
     color: white;
     font-size: 20px;
     text-align: center;
@@ -47,8 +59,8 @@ h1 {
     
     background-color: rgb(20, 38, 100);
     width: 425px;
-    height: 450px;
-    margin: 5px;transition: all ease 0.2s;
+    height: 500px;
+    margin: 12px;transition: all ease 0.2s;
     border-top: solid 8px rgb(22, 51, 121);
     border-right: solid 8px rgb(22, 51, 121);
     
@@ -70,10 +82,13 @@ h1 {
     
 }
 
-button{
-    margin-left: 170px;
-    margin-top: 5px;    
+.boton-card{
+    margin-left: 141.6px;
+    margin-right: 141.6px;
+    align-items: center;
 }
+
+
 
 .lista_navegacion li {    
     display: flex;
@@ -147,9 +162,10 @@ body {
 }
 
 .imagen-logo-menu {
-    height: 100px;
+    height: 60px;
     display: flex;
     align-items: flex-start;
+    margin-right: 16px;
 
 
 }
@@ -162,8 +178,8 @@ body {
 .card_02{
     background-color: rgb(20, 38, 100);
     width: 425px;
-    height: 450px;
-    margin: 5px;transition: all ease 0.2s;
+    height: 500px;
+    margin: 12px;transition: all ease 0.2s;
     border-top: solid 8px rgb(22, 51, 121);
     border-right: solid 8px rgb(22, 51, 121);
     
@@ -268,7 +284,7 @@ body {
     background-color: rgb(20, 38, 100);
     width: 425px;
     height: 300px;
-    margin: 5px;transition: all ease 0.2s;
+    margin: 12px;transition: all ease 0.2s;
 }
 
 .card-companias:hover{
