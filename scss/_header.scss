@@ -1,0 +1,27 @@
+.header-01 {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 310px;
+    border-bottom: black solid;
+    border-top: black solid;
+    background-color: $blanco;
+    margin-top: 20px;
+    margin: 1px color black;
+
+}
+
+.header-02 {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: black solid;
+    border-top: black solid;
+    background-color: $blanco;
+    margin-top: 20px;
+
+}

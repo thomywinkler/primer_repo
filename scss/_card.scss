@@ -1,0 +1,101 @@
+.card_subtitulo {
+    margin: 6px;
+    color: $blanco;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card {
+    
+    background-color: $color-winkler;
+    width: 400px;
+    height: 500px;
+    margin: 12px;transition: all ease 0.2s;
+    border-top: solid 8px $color-winkler;
+    border-right: solid 8px $color-winkler;
+
+    &hover{transform:scale(1.05)}
+    
+}
+
+
+.card_imagen {
+    display: flex;
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.card_parrafo {
+    color: $blanco;
+    text-align: center;
+    
+}
+
+.boton-card{
+    margin-left: 130.6px;
+    margin-right: 141.6px;
+    align-items: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr)
+
+}
+
+.card_02{
+    background-color: $color-winkler;
+    width: 400px;
+    height: 500px;
+    margin: 12px;transition: all ease 0.2s;
+    border-top: solid 8px $color-winkler;
+    border-right: solid 8px $color-winkler;
+
+    &hover{transform:scale(1.05)}
+    
+}
+
+@media screen and (max-width: 1358px){
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 910px){
+    .card-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    
+}
+
+.card-companias{
+    background-color: $color-winkler02;
+    width: 425px;
+    height: 300px;
+    margin: 12px;transition: all ease 0.2s;
+
+    &hover{transform:scale(1.05)}
+
+    img{
+        display: flex;
+        height: 163px;
+        width: 294px;
+        margin: 0 auto;
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    p{
+        color: $blanco;
+        font-size: 17px;
+        text-align: center;
+    }
+    
+}
+
