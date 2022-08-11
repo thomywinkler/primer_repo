@@ -1,21 +1,15 @@
+@import "./mixin";
+@import "./boton";
+
 .card_subtitulo {
     margin: 6px;
-    color: $blanco;
+    color: map-get($colores, blanco);
     font-size: 20px;
     text-align: center;
 }
 
 .card {
-    
-    background-color: $color-winkler;
-    width: 400px;
-    height: 500px;
-    margin: 12px;transition: all ease 0.2s;
-    border-top: solid 8px $color-winkler;
-    border-right: solid 8px $color-winkler;
-
-    &hover{transform:scale(1.05)}
-    
+    @include card
 }
 
 
@@ -29,15 +23,13 @@
 }
 
 .card_parrafo {
-    color: $blanco;
+    color: map-get($colores, blanco);
     text-align: center;
     
 }
 
 .boton-card{
-    margin-left: 130.6px;
-    margin-right: 141.6px;
-    align-items: center;
+    @extend .boton;
 }
 
 .card-container {
@@ -48,15 +40,7 @@
 }
 
 .card_02{
-    background-color: $color-winkler;
-    width: 400px;
-    height: 500px;
-    margin: 12px;transition: all ease 0.2s;
-    border-top: solid 8px $color-winkler;
-    border-right: solid 8px $color-winkler;
-
-    &hover{transform:scale(1.05)}
-    
+    @include card
 }
 
 @media screen and (max-width: 1358px){
@@ -75,7 +59,7 @@
 }
 
 .card-companias{
-    background-color: $color-winkler02;
+    background-color: map-get($colores, color-winkler02);
     width: 425px;
     height: 300px;
     margin: 12px;transition: all ease 0.2s;
@@ -92,7 +76,7 @@
     }
 
     p{
-        color: $blanco;
+        color: map-get($colores, blanco);
         font-size: 17px;
         text-align: center;
     }

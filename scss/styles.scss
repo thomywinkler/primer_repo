@@ -4,9 +4,10 @@
 
 
 
+
 .subtitulos-seccion02{
     margin: 6px;
-    color: $blanco;
+    color: map-get($colores, blanco);
     font-size: 20px;
     text-align: center
 }
@@ -35,7 +36,7 @@ h1 {
 }
 
 body {
-    background-color: $blanco;
+    background-color: map-get($colores, blanco);
 }
 
 .imagen-logo {

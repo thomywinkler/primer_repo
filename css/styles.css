@@ -30,10 +30,6 @@
   text-align: center;
 }
 
-.header_01 {
-  margin: 1px color black;
-}
-
 #menu li {
   display: flex;
   display: inline-block;
