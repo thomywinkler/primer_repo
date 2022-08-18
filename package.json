@@ -1,19 +1,17 @@
 {
-  "name": "winklerseguros-winkler-thomas-proyecto08",
+  "name": "proyecto10-1",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thomywinkler/primer_repo.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+		"watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thomywinkler/primer_repo/issues"
-  },
-  "homepage": "https://github.com/thomywinkler/primer_repo#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
 }

@@ -1,60 +1,24 @@
-.header-01 {
-  position: sticky;
-  top: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 310px;
-  border-bottom: black solid;
-  border-top: black solid;
-  background-color: rgb(240, 240, 240);
-  margin-top: 20px;
-}
-
-.header-02 {
-  position: sticky;
-  top: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: black solid;
-  border-top: black solid;
-  background-color: rgb(240, 240, 240);
-  margin-top: 20px;
-}
-
-.subtitulos-seccion02 {
-  margin: 6px;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-}
-
-#menu li {
-  display: flex;
-  display: inline-block;
-}
-
-h1 {
-  text-align: center;
-}
+.boton, .boton-card {
+  margin-left: 130.6px;
+  margin-right: 141.6px;
+  align-items: center; }
 
 .card_subtitulo {
   margin: 6px;
-  color: white;
+  color: #f0f0f0;
   font-size: 20px;
-  text-align: center;
-}
+  text-align: center; }
 
 .card {
-  background-color: rgb(20, 38, 100);
+  background-color: #163379;
   width: 400px;
   height: 500px;
   margin: 12px;
-  transition: all ease 0.2s;
-  border-top: solid 8px rgb(22, 51, 121);
-  border-right: solid 8px rgb(22, 51, 121);
-}
+  transition: all ease 0.2s; }
+  .card:hover {
+    transform: scale(1.05);
+    border-top: solid 8px #142664;
+    border-right: solid 8px #142664; }
 
 .card_imagen {
   display: flex;
@@ -62,271 +26,204 @@ h1 {
   height: 250px;
   margin: 0 auto;
   margin-top: 15px;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .card_parrafo {
-  color: white;
-  text-align: center;
-}
+  color: #f0f0f0;
+  text-align: center; }
 
-.boton-card {
-  margin-left: 130.6px;
-  margin-right: 141.6px;
-  align-items: center;
-}
+.card_02 {
+  background-color: #163379;
+  width: 400px;
+  height: 500px;
+  margin: 12px;
+  transition: all ease 0.2s; }
+  .card_02:hover {
+    transform: scale(1.05);
+    border-top: solid 8px #142664;
+    border-right: solid 8px #142664; }
 
-.lista_navegacion li {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin-right: 15px;
-  background-color: blue;
-  padding: 8px;
-  letter-spacing: 5px;
-  margin-top: 1px;
-}
-
-.lista_navegacion-02 li {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin-right: 15px;
-  background-color: blue;
-  padding: 8px;
-  letter-spacing: 5px;
-  margin-top: 15px;
-}
-
-.lista_navegacion li a {
-  color: white;
-  text-decoration: none;
-}
-
-.lista_navegacion-02 li a {
-  color: white;
-  text-decoration: none;
-}
-
-.wsp {
-  position: fixed;
-  bottom: 0px;
-  left: 1200px;
-}
-
-.wsp img {
-  width: 50px;
-  height: 50px;
-}
-
-body {
-  background-color: rgb(240, 240, 240);
-}
-
-.imagen-logo {
-  display: flex;
-  width: 100%;
-  height: auto;
-}
-
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-}
-
-.encabezado {
-  display: flex;
-}
-
-.a-encabezado {
-  text-decoration: none;
-  list-style: none;
-}
+.card-companias {
+  background-color: #163379;
+  width: 425px;
+  height: 300px;
+  margin: 12px;
+  transition: all ease 0.2s; }
+  .card-companias:hover {
+    transform: scale(1.05);
+    border-top: solid 8px #142664;
+    border-right: solid 8px #142664; }
+  .card-companias img {
+    display: flex;
+    height: 163px;
+    width: 294px;
+    margin: 0 auto;
+    margin-top: 15px;
+    justify-content: center; }
+  .card-companias p {
+    color: #f0f0f0;
+    font-size: 17px;
+    text-align: center; }
 
 .imagen-logo-menu {
   display: flex;
   margin-top: 3px;
-  margin-bottom: 3px;
-}
+  margin-bottom: 3px; }
 
-.logo-lista-navegacion {
+.tarjeta-winkler {
+  width: 100%;
+  height: auto; }
+
+.imagen-logo {
   display: flex;
-  align-items: flex-start;
-}
-
-.card_02 {
-  background-color: rgb(20, 38, 100);
-  width: 400px;
-  height: 500px;
-  margin: 12px;
-  transition: all ease 0.2s;
-  border-top: solid 8px rgb(22, 51, 121);
-  border-right: solid 8px rgb(22, 51, 121);
-}
-
-#polizas {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-}
-
-/* seccion01 */
-@media screen and (max-width: 1358px) {
-  #polizas {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 910px) {
-  #polizas {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-  }
-  .imagen-logo-menu {
-    height: 50px;
-    display: flex;
-    align-items: flex-start;
-    margin-right: 16px;
-  }
-}
-@media screen and (min-width: 1777px) {
-  #polizas {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
-}
-/* inicio */
-@media screen and (max-width: 1358px) {
-  .card-container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 910px) {
-  .card-container {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-  }
-}
-/* nosotros */
-.mapa {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background-color: rgb(20, 38, 100);
-}
+  width: 100%;
+  height: auto; }
 
 .foto-frente {
   margin-left: 30px;
   width: 700px;
-  height: 453px;
-}
+  height: 453px; }
+  .foto-frente img {
+    width: 550px;
+    height: 300px;
+    margin: 10px;
+    margin-left: 70px; }
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-align: center; }
+
+h4 {
+  text-align: center;
+  margin-bottom: 10px; }
+
+h5 {
+  text-align: center; }
+
+h6 {
+  margin-top: 30px;
+  text-align: center; }
+
+/* home */
+body {
+  background-color: #f0f0f0; }
+
+.encabezado {
+  display: flex; }
+
+.logo-lista-navegacion {
+  display: flex;
+  align-items: flex-start; }
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr); }
+
+@media screen and (max-width: 1358px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); } }
+
+@media screen and (max-width: 910px) {
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); } }
+
+/* seccion01 */
+#polizas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr); }
+
+@media screen and (max-width: 1358px) {
+  #polizas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); } }
+
+@media screen and (max-width: 910px) {
+  #polizas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); }
+  .imagen-logo-menu {
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 16px; } }
+
+@media screen and (min-width: 1777px) {
+  #polizas {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr); } }
+
+/* seccion02 */
+#companias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr); }
+
+.subtitulos-seccion02 {
+  margin: 6px;
+  color: #f0f0f0;
+  font-size: 20px;
+  text-align: center; }
+
+@media screen and (max-width: 1358px) {
+  #companias {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); } }
+
+@media screen and (max-width: 910px) {
+  #companias {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); } }
+
+@media screen and (min-width: 1777px) {
+  #companias {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr); } }
+
+/* nosotros */
+.mapa {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #142664; }
 
 .ubi {
   margin: auto;
   width: 100%;
-  height: 100%;
-}
-
-.foto-frente img {
-  width: 550px;
-  height: 300px;
-  margin: 10px;
-  margin-left: 70px;
-}
-
-@media screen and (max-width: 910px) {
-  .mapa {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-  .ubi {
-    margin: auto;
-    width: 100%;
-    height: 100%;
-  }
-}
-.quien-somo p {
-  display: flex;
-  text-align: center;
-  margin: 20px;
-}
+  height: 100%; }
 
 .quien-somo {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 1fr;
-}
+  grid-template-rows: 1fr 1fr; }
+  .quien-somo p {
+    display: flex;
+    text-align: center;
+    margin: 20px; }
 
-.card-companias {
-  background-color: rgb(20, 38, 100);
-  width: 425px;
-  height: 300px;
-  margin: 12px;
-  transition: all ease 0.2s;
-}
-
-.card-companias:hover {
-  transform: scale(1.05);
-}
-
-.card-companias img {
-  display: flex;
-  height: 163px;
-  width: 294px;
-  margin: 0 auto;
-  margin-top: 15px;
-  justify-content: center;
-}
-
-.card-companias p {
-  color: white;
-  font-size: 17px;
-  text-align: center;
-}
-
-#companias {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-}
-
-/* companias */
-@media screen and (max-width: 1358px) {
-  #companias {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
 @media screen and (max-width: 910px) {
-  #companias {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-  }
-}
-@media screen and (min-width: 1777px) {
-  #companias {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
-}
+  .mapa {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; }
+  .ubi {
+    margin: auto;
+    width: 100%;
+    height: 100%; } }
+
 @media screen and (min-width: 1071px) {
   .quien-somo {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-  }
-}
-.card:hover {
-  transform: scale(1.05);
-}
+    grid-template-rows: 1fr 1fr; } }
 
-.card_02:hover {
-  transform: scale(1.05);
-}
-
-.tarjeta-winkler {
-  width: 100%;
-  height: auto;
-}
-
-/*# sourceMappingURL=styles.css.map */
+/* contactarnos */
+.a-encabezado {
+  text-decoration: none;
+  list-style: none; }

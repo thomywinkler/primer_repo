@@ -1,0 +1,57 @@
+@import "./mixin";
+
+
+.card_subtitulo {
+    margin: 6px;
+    color: map-get($colores, blanco);
+    font-size: 20px;
+    text-align: center;
+}
+
+.card{
+    @include card
+}
+
+
+.card_imagen {
+    display: flex;
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.card_parrafo {
+    color: map-get($colores, blanco);
+    text-align: center;
+    
+}
+
+.boton-card{
+    @extend .boton;
+}
+
+.card_02{
+    @include card
+}
+
+.card-companias{
+    @include card-compañias;
+
+    img{
+        display: flex;
+        height: 163px;
+        width: 294px;
+        margin: 0 auto;
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    p{
+        color: map-get($colores, blanco);
+        font-size: 17px;
+        text-align: center;
+    }
+    
+}
